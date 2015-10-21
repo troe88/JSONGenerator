@@ -1,32 +1,39 @@
 {
-  "domain": "http://localhost:63342/HTMLParse/index.html",
+  "domain": "http://localhost:63342/HTMLParse/",
   "pages": [
     {
-      "page": {
-        "name": "index",
-        "url": "/index.html",
-        "title": "index",
-        "elements": [
-          {
-            "textfield": {
-              "name": "t1",
-              "locator": "[jdi-name=t1]"
-            }
-          },
-          {
-            "textfield": {
-              "name": "t2",
-              "locator": "[jdi-name=t2]"
-            }
-          },
-          {
-            "button": {
-              "name": "b1",
-              "locator": "[jdi-name=b1]"
-            }
-          }
-        ]
-      }
+      "name": "/HTMLParse/index.html",
+      "url": "http://localhost:63342/HTMLParse/index.html",
+      "title": "My page title",
+      "elements": [
+        {
+          "type": "textfield",
+          "name": "t1",
+          "locator": "[jdi-name='t1']"
+        },
+        {
+          "type": "textfield",
+          "name": "t2",
+          "locator": "[jdi-name='t2']"
+        },
+        {
+          "type": "button",
+          "name": "b1",
+          "locator": "[jdi-name='b1']"
+        }
+      ]
+    },
+    {
+      "name": "/HTMLParse/page1.html",
+      "url": "http://localhost:63342/HTMLParse/page1.html",
+      "title": "Page1",
+      "elements": [
+        {
+          "type": "button",
+          "name": "b1",
+          "locator": "[jdi-name='b1']"
+        }
+      ]
     }
   ]
 }
