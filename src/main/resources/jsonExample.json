@@ -1,0 +1,41 @@
+{
+  "domain": "http://...",
+  "pages": [
+    {
+      "page": {
+        "name": "Login Page",
+        "url": "/login",
+        "title": "Please Login",
+        "elements": [
+          {
+            "textfield": {
+              "name": "login",
+              "locator": "css=.login"
+            }
+          },
+          {
+            "textfield": {
+              "name": "password",
+              "locator": "css=.password"
+            }
+          },
+          {
+            "button": {
+              "name": "loginButton",
+              "locator": "xpath=//*[.='Login']"
+            }
+          },
+          {
+            "combobox": {
+              "name": "loginButton",
+              "selectorLocator": "css=.dropdown",
+              "optionsNamesLocatorTemplate": "css=.options li",
+              "valueLocator": "css=.dropdown-value",
+              "allOptionsNamesLocator": "css=.options li"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

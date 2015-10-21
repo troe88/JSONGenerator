@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<page url="http://dima.com">
+    <button>[jdi_button="b1"]</button>
+    <textField>[jdi_textField="tf1"]</textField>
+</page>

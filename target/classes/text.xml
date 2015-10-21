@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<page url="https://***.com">
+    <button css="[jdi_button=b1]"/>
+    <text css="[jdi_textField=&quot;t1&quot;]"/>
+    <text css="[jdi_textField=&quot;t2&quot;]"/>
+</page>

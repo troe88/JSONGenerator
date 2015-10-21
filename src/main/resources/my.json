@@ -1,0 +1,32 @@
+{
+  "domain": "http://localhost:63342/HTMLParse/index.html",
+  "pages": [
+    {
+      "page": {
+        "name": "index",
+        "url": "/index.html",
+        "title": "index",
+        "elements": [
+          {
+            "textfield": {
+              "name": "t1",
+              "locator": "[jdi-name=t1]"
+            }
+          },
+          {
+            "textfield": {
+              "name": "t2",
+              "locator": "[jdi-name=t2]"
+            }
+          },
+          {
+            "button": {
+              "name": "b1",
+              "locator": "[jdi-name=b1]"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
